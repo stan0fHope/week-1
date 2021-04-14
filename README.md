@@ -4,13 +4,14 @@
 
 ### commands
 
-- `pwd`
-- `cd`
-- `ls`
-- `mv`
-- `rm`
-- `touch`
-- `cat`
+- `pwd` = print current directory/path
+- `cd` = navigate to path
+- `ls` = print directory content
+- `mv` = move resource to new path
+- `rm` = remove resource
+- `touch` = create new file
+- `cat` = print resource content
+- `mkdir` = create new directory
 
 ## csharp
 
@@ -38,24 +39,30 @@
 - `private` = accessible within its own structure/scope
 - `protected` = accessible from any assembly with constraint of inheritance tree/family tree
 - `internal` = accessible within the assembly scope
+- `internal protected` = use in libraries
+- `private protected` = use in libraries
 
 ## dotnet
 
 ### commands
 
-- `dotnet new`
-- `dotnet run`
-- `dotnet build`
+- `dotnet new`, `dotnet new console`, `dotnet new gitignore`
+- `dotnet run` = code execution
+- `dotnet build` = code compilation
+- `dotnet --help`
 
 ## git
 
 ### commands
 
-- `git init`
-- `git add <path>`
-- `git commit`
-- `git log`
-- `git status`
-- `git remote`
-- `git config`
-- `git --help`
+- `git init` = initialize local repository
+- `git add <path>` = select resources to track
+- `git commit` = save for tracking
+- `git log` = print history of commits
+- `git status` = current state of repository
+- `git remote` = configure remote server
+- `git config` = configure user information
+- `git --help` = print help menu
+- `git push` = sync local server to remote server
+- `git pull` = sync remote server to local server
+- `git clone` = initialize remote repository to local server
